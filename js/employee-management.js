@@ -6,11 +6,11 @@ for (i = 0; i < 5; i += 1) {
     btnDel[i] = "<button class='btnDel" + String(i) + "'>delete</button>";
 }
 
-var employeeList = [["Sally Smith", "Quality Assurance", 5555, btnDel[0]],
-                    ["Mark Martin", "VP Sales", 4444, btnDel[1]],
+var employeeList = [["Akshit Shah", "Quality Assurance", 5555, btnDel[0]],
+                    ["Pankaj Chohan", "VP Sales", 4444, btnDel[1]],
                     ["Zak Ruvalcaba", "Marketing", 3333, btnDel[2]],
-                    ["John Johnson", "Accountant", 2222, btnDel[3]],
-                    ["Fred Maken", "CEO", 1111, btnDel[4]]];
+                    ["Ryan Hilbert", "Accountant", 2222, btnDel[3]],
+                    ["Harsh Maheshwari", "CEO", 1111, btnDel[4]]];
 
 var $ = function (id) {
     "use strict";
